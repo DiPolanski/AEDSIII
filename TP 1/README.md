@@ -1,7 +1,7 @@
 Integrantes: 
-Diego Polanski de Feitas Viera
-Guilherme de Almeida Santos
-Raphael Arnaut Rossi
+Diego Polanski de Feitas Viera;
+Guilherme de Almeida Santos;
+Raphael Arnaut Rossi;
 
 Descrição do Trabalho: Para atender com ao que foi pedido, de reaproveitar os espaços vazios, nosso grupo decidiu fazer uma mudança nos métodos Create e Uptade. 
 Onde ao invés de apenas adicionarmos os registros no final, iriamos percorrer o arquivo procurando um espaço vazio, e ao acharmos um, com tamanho igual ao registro que vamos inserir, 
