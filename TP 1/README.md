@@ -17,20 +17,20 @@ Foi um trabalho divertido de se fazer, onde conhecemos cada vez mais a manipula�
 
 Checklist
 * O que você considerou como perda aceitável para o reuso de espaços vazios, isto é, quais são os critérios para a gestão dos espaços vazios?
-    No nosso melhor caso a perda é zero, porém temos perda aceitavel um espaço vazio que não condiz com o tamanho de nenhum registro ou atualização.
+   - No nosso melhor caso a perda é zero, porém temos perda aceitavel um espaço vazio que não condiz com o tamanho de nenhum registro ou atualização.
 * O código do CRUD com arquivos de tipos genéricos está funcionando corretamente?
-    Está funcionando perfeitamente.
+    - Está funcionando perfeitamente.
 * O CRUD tem um índice direto implementado com a tabela hash extensível?
-    Não
+    - Não
 * A operação de inclusão busca o espaço vazio mais adequado para o novo registro antes de acrescentá-lo ao fim do arquivo?
-    Sim
+    - Sim
 * A operação de alteração busca o espaço vazio mais adequado para o registro quando ele cresce de tamanho antes de acrescentá-lo ao fim do arquivo?
-    Sim
+    - Sim
 * As operações de alteração (quando for o caso) e de exclusão estão gerenciando os espaços vazios para que possam ser reaproveitados?
-    Sim
+    - Sim
 * O trabalho está funcionando corretamente?
-    Sim
+    - Sim
 * O trabalho está completo?
-    Sim
+    - Sim
 * O trabalho é original e não a cópia de um trabalho de um colega?
-    Trabalho original.
+    - Trabalho original.
