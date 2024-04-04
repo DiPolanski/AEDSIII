@@ -1,36 +1,36 @@
-Integrantes: 
-Diego Polanski de Feitas Viera;
-Guilherme de Almeida Santos;
-Raphael Arnaut Rossi;
+Integrantes: Diego Polanski de Feitas Viera; Guilherme de Almeida Santos; Raphael Arnaut Rossi;
 
-Descrição do Trabalho: Para atender com o que foi pedido, de reaproveitar os espaços vazios, nosso grupo decidiu fazer uma mudança nos métodos Create e Uptade. 
-Onde ao invés de apenas adicionarmos os registros no final, iriamos percorrer o arquivo procurando um espaço vazio, e ao acharmos um, com tamanho igual ao registro que vamos inserir, 
-sobrescrevemos o local vazio. Dessa forma conseguimos tirar muitos casos de desperdício de espaço. No melhor caso, o arquivo não teria nehum espaço vazio.
+Descrição do Trabalho:
 
-Durante o processo, o mais difícil foi pensar como tratar cada detalhe de espaço vazio que surge. Já que quando deletamos ou atualizamos algum registro, muitas vezes surgem espaços vazio. 
-Pensando nisso, pensamos na estratégia de percorrer o arquivo atrás de registross deletados, a fim de criar ou atualizar os objetos. 
-Nós alcançamos o que esperávamos, fizemos um código organizado, com sentido, comentado e adicionamos um menu, para com as opções de Criar, Ler, Deletar e Atualizar. O menu é uma simulação
-como se fosse um CRUD de um sistema real, e a cada passo que vai avançando, uma intrução é colocada, para que não ocorra erro na execução, além disso não são permitidos valores incompátiveis, o programa avisa e pede para trocar. Colocamos como comentario, no final da main, um caso teste que exemplifica cada caso. Create no final, create usando um espaço vazio, uptade no final, uptade 
-usando espaço vazio e uptade no local do registro original.
-Foi um trabalho divertido de se fazer, onde conhecemos cada vez mais a manipulação de dados em um arquivo de bytes.
+Para atender ao que foi solicitado de reaproveitamento dos espaços vazios, nosso grupo decidiu modificar os métodos Create e Update. Ao invés de apenas adicionar os registros no final, optamos por percorrer o arquivo em busca de espaços vazios. Quando encontramos um espaço vazio com tamanho igual ao registro que desejamos inserir, substituímos esse espaço vazio. Desta forma, conseguimos minimizar os casos de desperdício de espaço. No melhor caso, o arquivo não teria nenhum espaço vazio.
+
+Durante o processo, o mais desafiador foi pensar em como lidar com cada detalhe dos espaços vazios que surgem. Ao deletar ou atualizar um registro, muitas vezes surgem espaços vazios. Para abordar isso, pensamos na estratégia de percorrer o arquivo em busca de registros deletados, a fim de reutilizar esses espaços. Conseguimos alcançar nossos objetivos, produzindo um código organizado, com sentido e comentado. Além disso, adicionamos um menu com opções para Criar, Ler, Deletar e Atualizar, simulando um CRUD de um sistema real. Em cada etapa do processo, uma instrução é fornecida para evitar erros na execução. Não são permitidos valores incompatíveis, sendo que o programa alerta e solicita correções quando necessário. Ao final da função main, adicionamos um conjunto de testes que exemplifica cada caso: criar no final, criar usando um espaço vazio, atualizar no final, atualizar usando um espaço vazio e atualizar no local do registro original. Foi um trabalho divertido de realizar, onde aprimoramos nossos conhecimentos na manipulação de dados em arquivos de bytes.
 
 
-Checklist
-* O que você considerou como perda aceitável para o reuso de espaços vazios, isto é, quais são os critérios para a gestão dos espaços vazios?
-   - No nosso melhor caso a perda é zero, porém temos perda aceitavel um espaço vazio que não condiz com o tamanho de nenhum registro ou atualização.
+Checklist:
+* Qual foi considerada uma perda aceitável para o reuso de espaços vazios, isto é, quais são os critérios para a gestão dos espaços vazios?
+   - No nosso melhor caso, a perda é zero. No entanto, consideramos aceitável um espaço vazio que não corresponda ao tamanho de nenhum registro ou atualização.
+
 * O código do CRUD com arquivos de tipos genéricos está funcionando corretamente?
-    - Está funcionando perfeitamente.
+   - Sim, está funcionando perfeitamente.
+
 * O CRUD tem um índice direto implementado com a tabela hash extensível?
-    - Não
+   - Não.
+
 * A operação de inclusão busca o espaço vazio mais adequado para o novo registro antes de acrescentá-lo ao fim do arquivo?
-    - Sim
+   - Sim.
+
 * A operação de alteração busca o espaço vazio mais adequado para o registro quando ele cresce de tamanho antes de acrescentá-lo ao fim do arquivo?
-    - Sim
-* As operações de alteração (quando for o caso) e de exclusão estão gerenciando os espaços vazios para que possam ser reaproveitados?
-    - Sim
+   - Sim.
+     
+* As operações de alteração (quando necessário) e de exclusão estão gerenciando os espaços vazios para que possam ser reaproveitados?
+   - Sim.
+
 * O trabalho está funcionando corretamente?
-    - Sim
+   - Sim.
+     
 * O trabalho está completo?
-    - Sim
-* O trabalho é original e não a cópia de um trabalho de um colega?
-    - Trabalho original.
+   - Sim.
+
+* O trabalho é original e não uma cópia do trabalho de um colega?
+   -Trabalho original.
