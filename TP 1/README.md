@@ -3,14 +3,14 @@ Diego Polanski de Feitas Viera;
 Guilherme de Almeida Santos;
 Raphael Arnaut Rossi;
 
-Descrição do Trabalho: Para atender com ao que foi pedido, de reaproveitar os espaços vazios, nosso grupo decidiu fazer uma mudança nos métodos Create e Uptade. 
+Descrição do Trabalho: Para atender com o que foi pedido, de reaproveitar os espaços vazios, nosso grupo decidiu fazer uma mudança nos métodos Create e Uptade. 
 Onde ao invés de apenas adicionarmos os registros no final, iriamos percorrer o arquivo procurando um espaço vazio, e ao acharmos um, com tamanho igual ao registro que vamos inserir, 
 sobrescrevemos o local vazio. Dessa forma conseguimos tirar muitos casos de desperdício de espaço. No melhor caso, o arquivo não teria nehum espaço vazio.
 
-Durante o processo, o mais difícil foi pensar como tratar cada detalhe de espaço vazio que surge. Já que quando deletamos ou atualizamos algum registro, muitas vezes surgiram espaços vazio. 
-Pensando nisso, pensamos na estratégia de percorrer o arquivo atrás dos registross deletados, a fim de criar ou atualizar os objetos. 
+Durante o processo, o mais difícil foi pensar como tratar cada detalhe de espaço vazio que surge. Já que quando deletamos ou atualizamos algum registro, muitas vezes surgem espaços vazio. 
+Pensando nisso, pensamos na estratégia de percorrer o arquivo atrás de registross deletados, a fim de criar ou atualizar os objetos. 
 Nós alcançamos o que esperávamos, fizemos um código organizado, com sentido, comentado e adicionamos um menu, para com as opções de Criar, Ler, Deletar e Atualizar. O menu é uma simulação
-como se fosse um CRUD de um sistema real. Colocamos como comentario, no final da main. Um caso teste que exemplifica cada caso. Create no final, create usando um espaço vazio, uptade no final, uptade 
+como se fosse um CRUD de um sistema real, e a cada passo que vai avançando, uma intrução é colocada, para que não ocorra erro na execução, além disso não são permitidos valores incompátiveis, o programa avisa e pede para trocar. Colocamos como comentario, no final da main, um caso teste que exemplifica cada caso. Create no final, create usando um espaço vazio, uptade no final, uptade 
 usando espaço vazio e uptade no local do registro original.
 Foi um trabalho divertido de se fazer, onde conhecemos cada vez mais a manipulação de dados em um arquivo de bytes.
 
