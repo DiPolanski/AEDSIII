@@ -5,7 +5,7 @@ Raphael Arnaut Rossi;
 
 Descrição do Trabalho: Para atender com ao que foi pedido, de reaproveitar os espaços vazios, nosso grupo decidiu fazer uma mudança nos métodos Create e Uptade. 
 Onde ao invés de apenas adicionarmos os registros no final, iriamos percorrer o arquivo procurando um espaço vazio, e ao acharmos um, com tamanho igual ao registro que vamos inserir, 
-sobre escrevemos o local vazio. Dessa forma conseguimos tirar muitos casos de desperdício de espaço. No melhor caso, o arquivo não teria nehum espaço vazio.
+sobrescrevemos o local vazio. Dessa forma conseguimos tirar muitos casos de desperdício de espaço. No melhor caso, o arquivo não teria nehum espaço vazio.
 
 Durante o processo, o mais difícil foi pensar como tratar cada detalhe de espaço vazio que surge. Já que quando deletamos ou atualizamos algum registro, muitas vezes surgiram espaços vazio. 
 Pensando nisso, pensamos na estratégia de percorrer o arquivo atrás dos registross deletados, a fim de criar ou atualizar os objetos. 
