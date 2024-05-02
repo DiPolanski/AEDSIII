@@ -12,9 +12,9 @@ Para executar o trabalho, foi necessário alterar todas as etapas do CRUD.
 
 1. Criamos uma função para fazer o “split” do título e dos autores dos livros. Essa função retorna um array de Strings, com a divisão da frase.
 2. **Create:** 
-      1) No create, após o usuário preencher todos os dados do registro, chamamos a função do split para o título e o autor. 
-      2) Depois com um laço de repetição adicionamos cada palavra do array de strings na lista invertida.
-      3) Foram criadas 2 listas invertidas, uma para os títulos e outra para os autores. 
+      1* No create, após o usuário preencher todos os dados do registro, chamamos a função do split para o título e o autor. 
+      2* Depois com um laço de repetição adicionamos cada palavra do array de strings na lista invertida.
+      3* Foram criadas 2 listas invertidas, uma para os títulos e outra para os autores. 
 
 3. **Read:**
       1) No momento da leitura, disponibilizamos 2 opções para o usuário: pesquisar pelo título ou pelo autor. 
