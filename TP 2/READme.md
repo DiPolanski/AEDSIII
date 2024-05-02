@@ -36,7 +36,7 @@ Para executar o trabalho, foi necessário alterar todas as etapas do CRUD.
       2) Após informar, será armazenado o valor do título e do autor deste registro.
       3) Então será apagado das listas tais dados com o ID inserido pelo usuário.
 
-OBS: As palavras sempre são transformadas em letras minúsculas nas listas invertidas, no momento da pesquisa e de atualizações, para que todas as operações ocorram corretamente, independentemente da forma como foram escritas.
+**OBS**: As palavras sempre são transformadas em letras minúsculas nas listas invertidas, no momento da pesquisa e de atualizações, para que todas as operações ocorram corretamente, independentemente da forma como foram escritas.
 
 **Questionário**
 
