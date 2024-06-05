@@ -1,6 +1,6 @@
 # TP 3 – Backup compactado
 
-**Grupo:** Diego Polanski, Guilherme de Almeida, Gabriel rangel e Raphael Arnault 
+**Grupo:** Diego Polanski, Guilherme de Almeida, Gabriel Rangel e Raphael Arnault 
 
 Durante a execução do projeto, começamos criando no menu a possibilidade de fazer e recuperar backups, escolhendo a opção 6 e 7 respectivamente. Então fomos pensar como seria a organização para salvar esses backups. Então iriamos guarda-los com a data e hora que fizemos o backup. Contruimos uma função então para abstrair a versão do backup. Ao ter o momento exato que foi salvo, formatamos a string para criar o arquvio, a formatação foi "dd_mm_yy hh_mm". 
 Então entramos no arquivo de registros e pegamos todos os registros válidos, compactamos usando o algoritmo LZW, e então salvamos o array de bytes no arquivo backup. Criamos assim a rotina de "cópias".
